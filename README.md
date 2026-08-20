@@ -39,13 +39,26 @@ The application is available publicly on the **Microsoft Store**.
 - **English & Turkish UI** — the interface can switch languages without restarting the application.
 - **Windows-native distribution** — packaged as x64 MSIX and distributed through the Microsoft Store.
 
-## Product tour
+## Application screenshots
 
-<div align="center">
-
-<img src="docs/images/product-tour.jpg" alt="LocalTools Suite application screenshots showing Home, PDF Organizer, Metadata and Audio tools" width="100%">
-
-</div>
+<table>
+  <tr>
+    <td align="center"><strong>Home</strong></td>
+    <td align="center"><strong>PDF Organizer</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/home.png" alt="LocalTools Suite Home screen" width="100%"></td>
+    <td><img src="docs/images/organize.png" alt="LocalTools Suite PDF Organizer screen" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Audio Tools</strong></td>
+    <td align="center"><strong>Metadata Tools</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/audio.png" alt="LocalTools Suite Audio tools screen" width="100%"></td>
+    <td><img src="docs/images/metadata.png" alt="LocalTools Suite Metadata tools screen" width="100%"></td>
+  </tr>
+</table>
 
 ## Features
 
