@@ -126,8 +126,6 @@ The recommended installation method is the Microsoft Store:
 
 ### [Download LocalTools Suite from Microsoft Store](https://apps.microsoft.com/detail/9P1RLFPFKN6N?hl=tr-tr&gl=TR&ocid=pdpshare)
 
-Store ID: `9P1RLFPFKN6N`
-
 ## Current release
 
 **LocalTools Suite 4.0.0** is the first public Microsoft Store release.
