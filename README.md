@@ -14,6 +14,10 @@ A privacy-focused Windows desktop utility suite for working with PDFs, images, d
 
 [Microsoft Store](https://apps.microsoft.com/detail/9P1RLFPFKN6N?hl=tr-tr&gl=TR&ocid=pdpshare) · [Privacy Policy](https://furkanertrk.github.io/localtools-suite/) · [Support](mailto:furkanerturk.dev@gmail.com)
 
+<br>
+
+<img src="docs/images/cover.jpg" alt="LocalTools Suite cover" width="100%">
+
 </div>
 
 ---
@@ -34,6 +38,14 @@ The application is available publicly on the **Microsoft Store**.
 - **Free first release** — no subscription, paid add-on, or in-app purchase in version 4.0.0.
 - **English & Turkish UI** — the interface can switch languages without restarting the application.
 - **Windows-native distribution** — packaged as x64 MSIX and distributed through the Microsoft Store.
+
+## Product tour
+
+<div align="center">
+
+<img src="docs/images/product-tour.jpg" alt="LocalTools Suite application screenshots showing Home, PDF Organizer, Metadata and Audio tools" width="100%">
+
+</div>
 
 ## Features
 
