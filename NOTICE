@@ -1,0 +1,117 @@
+==========================================================================
+NOTICE file for LocalTools Suite
+Copyright 2026 Furkan Ertürk
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may
+not use this file except in compliance with the License. You may obtain
+a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+This NOTICE file is provided for informational and acknowledgement
+purposes in the sense of Section 4(d) of the Apache License, Version 2.0.
+It does not modify, restrict, or relicense any third-party license terms.
+Every component named below remains under its own license.
+==========================================================================
+
+1. Qt 6.11.1 (Community Edition)
+   Upstream:  https://www.qt.io/qt-technologies
+              https://download.qt.io/official_releases/qt/6.11/6.11.1/submodules/
+   License:   LGPL-3.0-only (used via dynamic linking; Qt also offers
+              GPL/commercial alternatives, and this project uses the LGPL
+              route).
+   Usage:     Dynamically linked Qt modules Core, Gui, Widgets, Concurrent,
+              Svg, Multimedia and MultimediaWidgets; LinguistTools is used
+              at build time only. Qt Network is pulled in transitively by
+              Qt Multimedia at runtime. Qt is dynamically linked and its
+              DLLs are replaceable by the user; no end-user license term
+              restricts reverse engineering needed to debug modifications to
+              LGPL-licensed Qt. QtSvg 6.11.1 is rebuilt with the five official
+              CVE-2026-8168 patches. The provenance record shipped with the
+              binary (QtSvg-security-provenance.txt) lists the patch names and
+              SHA-256 hashes, while the patch URLs, the source-archive URL and
+              hash, the verification steps and the complete build recipe live
+              in this repository: tools/build_patched_qtsvg.ps1 pins the
+              official QtSvg 6.11.1 source archive and the five official patch
+              files by URL and SHA-256, verifies each with git apply --check
+              before applying, and builds with CMake and Ninja, so the exact
+              patched QtSvg can be rebuilt from this repository. See also
+              legal/QT_LGPL_RELINKING.md.
+
+2. FFmpeg 8.1 snapshot n8.1.2-44-g7c533d0f86-20260815 (BtbN win64 LGPL build)
+   Upstream:  https://github.com/BtbN/FFmpeg-Builds
+   License:   LGPL-3.0-or-later (build configured with
+              --enable-version3; verified, from the configuration recorded in
+              the shipped binaries, to NOT contain --enable-gpl,
+              --enable-nonfree, --enable-libx264, --enable-libx265 or
+              --enable-libxvid).
+   Usage:     Invoked as a separate child process; not linked into the
+              application.
+
+3. PDFium 153.0.7999.0 (bblanchon/pdfium-binaries, channel chromium/7999)
+   Upstream:  https://github.com/bblanchon/pdfium-binaries
+              https://pdfium.googlesource.com/pdfium/
+   License:   MIT-style package license (Copyright 2014-2025 Benoit
+              Blanchon) over upstream BSD-style PDFium.
+   Usage:     Prebuilt PDF library used for the PDF tools. Its bundled
+              component licenses (Abseil Apache-2.0, agg23, fast_float,
+              FreeType FTL/GPLv2 dual, ICU Unicode, Little CMS,
+              libjpeg-turbo IJG/BSD, OpenJPEG, libpng, libtiff, LLVM libc
+              Apache-2.0, PDFium BSD, simdutf, zlib) are reproduced in
+              third_party/pdfium/licenses/ and must ship in every binary
+              release.
+
+4. qrcodegen (Project Nayuki)
+   Upstream:  https://www.nayuki.io/page/qr-code-generator-library
+   License:   MIT
+   Usage:     QR-code generation; vendored in third_party/qrcodegen with
+              its original notice retained.
+
+5. quirc (Daniel Beer)
+   Upstream:  https://github.com/dlbeer/quirc
+   License:   ISC
+   Usage:     QR-code decoding; vendored from upstream lib/ at pinned
+              commit 927d680904dc95fdff4cd9d022eb374b438ff8f2, notices
+              retained, formatting-only differences.
+
+6. MinGW-w64 / GCC runtime libraries
+   Upstream:  Build toolchain (GCC runtime as shipped by the MinGW-w64
+              toolchain used for this project).
+   License:   GPL-3.0 with the GCC Runtime Library Exception, plus
+              MinGW-w64 notices.
+   Usage:     Compiler runtime DLLs supplied by windeployqt at build time
+              and bundled in binary releases as licenses/GCC-GPL-3.0.txt,
+              licenses/GCC-RUNTIME-LIBRARY-EXCEPTION.txt and
+              licenses/MinGW-w64-COPYING.txt.
+
+7. Windows Media Foundation
+   Upstream:  Component of the Microsoft Windows operating system on the
+              user's machine.
+   License:   Microsoft OS license; not redistributed by this project and
+              no obligation arises from its use.
+   Usage:     Audio/video playback performed by Qt's Media Foundation
+              playback plugin at runtime.
+
+--------------------------------------------------------------------------
+The canonical third-party license record for this repository is
+THIRD_PARTY_NOTICES.md.
+
+Distribution model. Application source code: licensed under the Apache
+License, Version 2.0, as recorded in LICENSE and NOTICE. Microsoft Store
+binary: distributed under the Microsoft Store listing and its end-user
+license agreement, which governs the packaged product; the compatibility
+review of that agreement found no structural incompatibility; its scope
+wording now states that the agreement governs the Store-distributed binary
+while the source code is licensed under the Apache License, Version 2.0,
+and the source license governs the source in this repository. Third-party
+components:
+remain under their own licenses, unchanged by this repository. None of
+this is legal advice, and codec patent licensing for media formats is a
+separate matter that no copyright license in this repository grants.
+
+This project makes no patent grant beyond the patent grant in the Apache
+License, Version 2.0.
+
+This NOTICE file is provided for informational purposes and is not legal
+advice.
+--------------------------------------------------------------------------

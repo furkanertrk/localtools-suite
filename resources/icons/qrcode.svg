@@ -1,0 +1,12 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M2 3.5C2 2.67157 2.67157 2 3.5 2H7.5C8.32843 2 9 2.67157 9 3.5V7.5C9 8.32843 8.32843 9 7.5 9H3.5C2.67157 9 2 8.32843 2 7.5V3.5ZM3.5 3.5H7.5V7.5H3.5V3.5Z" fill="currentColor"/>
+  <rect x="4.75" y="4.75" width="1.5" height="1.5" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M11 3.5C11 2.67157 11.6716 2 12.5 2H16.5C17.3284 2 18 2.67157 18 3.5V7.5C18 8.32843 17.3284 9 16.5 9H12.5C11.6716 9 11 8.32843 11 7.5V3.5ZM12.5 3.5H16.5V7.5H12.5V3.5Z" fill="currentColor"/>
+  <rect x="13.75" y="4.75" width="1.5" height="1.5" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12.5C2 11.6716 2.67157 11 3.5 11H7.5C8.32843 11 9 11.6716 9 12.5V16.5C9 17.3284 8.32843 18 7.5 18H3.5C2.67157 18 2 17.3284 2 16.5V12.5ZM3.5 12.5H7.5V16.5H3.5V12.5Z" fill="currentColor"/>
+  <rect x="4.75" y="13.75" width="1.5" height="1.5" fill="currentColor"/>
+  <rect x="11" y="11" width="2.6" height="2.6" fill="currentColor"/>
+  <rect x="15.4" y="11" width="2.6" height="2.6" fill="currentColor"/>
+  <rect x="11" y="15.4" width="2.6" height="2.6" fill="currentColor"/>
+  <rect x="15.4" y="15.4" width="2.6" height="2.6" fill="currentColor"/>
+</svg>

@@ -1,0 +1,69 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/LocalTools.ico</file>
+        <file>icons/home.svg</file>
+        <file>icons/merge.svg</file>
+        <file>icons/split.svg</file>
+        <file>icons/extract.svg</file>
+        <file>icons/delete.svg</file>
+        <file>icons/reorder.svg</file>
+        <file>icons/rotate.svg</file>
+        <file>icons/rotate_left.svg</file>
+        <file>icons/rotate_right.svg</file>
+        <file>icons/image.svg</file>
+        <file>icons/pdf.svg</file>
+        <file>icons/text.svg</file>
+        <file>icons/compress.svg</file>
+        <file>icons/metadata.svg</file>
+        <file>icons/view.svg</file>
+        <file>icons/edit.svg</file>
+        <file>icons/settings.svg</file>
+        <file>icons/folder.svg</file>
+        <file>icons/checkmark.svg</file>
+        <file>icons/warning.svg</file>
+        <file>icons/error.svg</file>
+        <file>icons/arrow_up.svg</file>
+        <file>icons/arrow_down.svg</file>
+        <file>icons/arrow_left.svg</file>
+        <file>icons/arrow_right.svg</file>
+        <file>icons/arrow_up_dark.svg</file>
+        <file>icons/arrow_down_dark.svg</file>
+        <file>icons/arrow_up_light.svg</file>
+        <file>icons/arrow_down_light.svg</file>
+        <file>icons/arrow_up_hover.svg</file>
+        <file>icons/arrow_down_hover.svg</file>
+        <file>icons/close.svg</file>
+        <file>icons/sun.svg</file>
+        <file>icons/moon.svg</file>
+        <file>icons/music.svg</file>
+        <file>icons/trim.svg</file>
+        <file>icons/search.svg</file>
+        <file>icons/grid.svg</file>
+        <file>icons/star.svg</file>
+        <file>icons/star_filled.svg</file>
+        <file>icons/info.svg</file>
+        <file>icons/convert.svg</file>
+        <file>icons/video.svg</file>
+        <file>icons/crop.svg</file>
+        <file>icons/resize.svg</file>
+        <file>icons/hash.svg</file>
+        <file>icons/qrcode.svg</file>
+        <file>icons/duplicate.svg</file>
+        <file>icons/rename.svg</file>
+        <file>icons/archive.svg</file>
+        <file>icons/watermark.svg</file>
+        <file>icons/play.svg</file>
+        <file>icons/pause.svg</file>
+        <file>icons/clock.svg</file>
+        <file>icons/monitor.svg</file>
+        <file>icons/drive.svg</file>
+        <file>icons/film.svg</file>
+    </qresource>
+    <qresource prefix="/legal">
+        <file alias="privacy_en.md">../legal/PRIVACY_POLICY_EN.md</file>
+        <file alias="privacy_tr.md">../legal/PRIVACY_POLICY_TR.md</file>
+        <file alias="third_party.txt">../legal/THIRD_PARTY_NOTICES.txt</file>
+        <file alias="qt_relinking.md">../legal/QT_LGPL_RELINKING.md</file>
+        <file alias="eula.md">../legal/END_USER_LICENSE.md</file>
+    </qresource>
+</RCC>

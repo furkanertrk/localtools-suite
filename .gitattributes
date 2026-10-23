@@ -1,0 +1,56 @@
+# Normalize line endings: LF in the repository
+* text=auto eol=lf
+
+# Windows-native files: check out with CRLF
+*.ps1               text eol=crlf
+*.psm1              text eol=crlf
+*.psd1              text eol=crlf
+*.bat               text eol=crlf
+*.cmd               text eol=crlf
+*.rc                text eol=crlf
+*.sln               text eol=crlf
+*.vcxproj           text eol=crlf
+*.vcxproj.filters   text eol=crlf
+*.props             text eol=crlf
+*.targets           text eol=crlf
+
+# Explicitly text source and documentation files
+*.md    text
+*.cpp   text
+*.c     text
+*.h     text
+*.qrc   text
+*.ts    text
+# Qt Linguist translation source, not TypeScript
+resources/translations/*.ts  linguist-language=XML
+
+# Binary file types
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.bmp    binary
+*.ico    binary
+*.pdf    binary
+*.qm     binary
+*.exe    binary
+*.dll    binary
+*.lib    binary
+*.obj    binary
+*.o      binary
+*.a      binary
+*.so     binary
+*.dylib  binary
+*.msix   binary
+*.appx   binary
+*.zip    binary
+*.tgz    binary
+*.pfx    binary
+*.p12    binary
+
+# GitHub linguist: third-party code and documentation are excluded
+# from language statistics (images are not marked vendored anywhere
+# outside of third_party)
+/third_party/**  linguist-vendored
+/docs/**         linguist-documentation
+/legal/**        linguist-documentation

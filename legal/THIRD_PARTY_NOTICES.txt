@@ -1,0 +1,80 @@
+LocalTools Suite 4.0.0 - Third-Party Notices
+================================================
+
+LocalTools Suite is an open-source application (source under Apache-2.0) that
+uses and redistributes the open-source components listed below. This notice
+does not change the license of LocalTools Suite or of any component; each
+component remains governed by its own license.
+
+Qt 6.11.1
+--------
+Copyright (C) The Qt Company Ltd. and other contributors.
+Source: https://code.qt.io/cgit/qt/
+License route used by this release: GNU Lesser General Public License v3
+(LGPL-3.0). Qt is dynamically linked and its DLLs are replaceable by the user.
+QtSvg 6.11.1 is rebuilt with Qt's five official CVE-2026-8168 patches. Exact
+source, patch and binary hashes are in QtSvg-security-provenance.txt.
+The package includes Qt-LICENSE.txt, which contains the applicable LGPL/GPL
+terms supplied with the exact Qt Community SDK used for this build.
+
+No application-authored changes were made to Qt code. The shipped QtSvg module
+is a security rebuild: upstream Qt 6.11.1 source plus the five official
+CVE-2026-8168 patches listed above, and nothing else; see
+QtSvg-security-provenance.txt for exact inputs and outputs. Corresponding Qt
+source for this version is available from:
+https://download.qt.io/official_releases/qt/6.11/6.11.1/submodules/
+
+Users may replace the Qt DLLs in an unpackaged copy with compatible modified
+versions for debugging/relinking, subject to Windows loader compatibility. The
+publisher does not restrict reverse engineering needed to debug modifications
+to LGPL-covered Qt libraries.
+
+FFmpeg 8.1 (BtbN Windows x64 LGPL build)
+----------------------------------------
+Copyright (C) FFmpeg contributors.
+Source: https://ffmpeg.org/
+Build source: https://github.com/BtbN/FFmpeg-Builds
+License: GNU Lesser General Public License v3 or later, as supplied in
+FFmpeg-LGPL-3.0.txt.
+
+LocalTools Suite invokes ffmpeg.exe and ffprobe.exe as independent child
+processes; it does not link FFmpeg libraries. The distributed binaries are the
+verified `win64-lgpl` build. GPL and nonfree variants are not used.
+
+Qt Multimedia playback backend
+------------------------------
+The Store package deliberately deploys only Qt's Windows Media Foundation
+playback plugin. Qt's separate FFmpeg media plugin and its FFmpeg 7.1.3 shared
+libraries are excluded from the production package. Audio/video conversion is
+performed by the independently audited standalone FFmpeg runtime above.
+
+PDFium 153.0.7999.0
+-------------------
+Package copyright (C) 2014-2025 Benoit Blanchon; PDFium and bundled components
+are copyrighted by their respective authors.
+Package source: https://github.com/bblanchon/pdfium-binaries
+Upstream source: https://pdfium.googlesource.com/pdfium/
+License: BSD-style package license and the component licenses included under
+PDFium-components/. See PDFium-LICENSE.txt.
+
+QR Code generator library (qrcodegen)
+--------------------------------------
+Copyright (C) Project Nayuki.
+Source: https://www.nayuki.io/page/qr-code-generator-library
+License: MIT. The full notice is reproduced in qrcodegen-MIT.txt.
+
+quirc
+-----
+Copyright (C) Daniel Beer and contributors.
+Source: https://github.com/dlbeer/quirc
+Pinned source revision: 927d680904dc95fdff4cd9d022eb374b438ff8f2
+License: ISC-style license. The full notice is reproduced in quirc-ISC.txt.
+
+MinGW-w64 runtime
+-----------------
+The release includes compiler runtime DLLs deployed by Qt's windeployqt.
+These files are supplied by the MinGW-w64/GCC toolchain. The associated runtime
+notices from the selected Qt SDK are copied into the licenses directory during
+the release staging process.
+
+This file is an engineering compliance record, not legal advice.
